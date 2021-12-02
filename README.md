@@ -27,6 +27,17 @@ Request
 | ------- | ----------------------| 
 | GET    | /image?url={image_url} | 
 
+Response
+
+| statusCode | Msg                    |
+| ------- | ----------------------| 
+| 200    | image download successful. | 
+| 400    | image url does not exist. | 
+| 400    | image download failed. | 
+
+
+
+
 
 ## Project structure
 - controller
@@ -37,6 +48,8 @@ Request
   - allocate all the routes
 - test
   - unit test file
+- uploads
+  - upload image and flip image.
 
 
 
